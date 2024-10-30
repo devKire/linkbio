@@ -30,6 +30,22 @@ function App() {
 
       <div className="book-covers">
         <img src="https://i.ibb.co/M1rdFzn/covercat.jpg" alt="30 Receitas Saudáveis e Caseiras" />
+        <div className="icon-container">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="40" height="40"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className="plus-icon"
+    >
+      <line x1="12" y1="5" x2="12" y2="19" />
+      <line x1="5" y1="12" x2="19" y2="12" />
+    </svg>
+  </div>
         <img src="https://i.ibb.co/wBcbZY8/covercat-BONUS.jpg" alt="Alimentação Saudável - Bônus" />
       </div>
 
@@ -70,8 +86,7 @@ function App() {
         </button>
 
         <h3>
-          VEJA OS{" "}
-          <span className="highlight">DEPOIMENTOS DE QUEM JÁ COMPROU</span>
+          VEJA OS <span className="highlight">DEPOIMENTOS DE QUEM JÁ COMPROU</span>
         </h3>
 
         <div className="testimonial-cards">
@@ -136,17 +151,36 @@ function App() {
         </h2>
 
         <div className="books-container">
-          <img
-            src="https://i.ibb.co/M1rdFzn/covercat.jpg"
-            alt="30 Receitas Saudáveis e Caseiras"
-            className="book"
-          />
-          <img
-            src="https://i.ibb.co/wBcbZY8/covercat-BONUS.jpg"
-            alt="Alimentação Saudável - Bônus"
-            className="book"
-          />
-        </div>
+  <img
+    src="https://i.ibb.co/M1rdFzn/covercat.jpg"
+    alt="30 Receitas Saudáveis e Caseiras"
+    className="book"
+  />
+  
+  <div className="icon-container">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="40" height="40"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className="plus-icon"
+    >
+      <line x1="12" y1="5" x2="12" y2="19" />
+      <line x1="5" y1="12" x2="19" y2="12" />
+    </svg>
+  </div>
+
+  <img
+    src="https://i.ibb.co/wBcbZY8/covercat-BONUS.jpg"
+    alt="Alimentação Saudável - Bônus"
+    className="book"
+  />
+</div>
+
 
         <div className="price">
           <div className="old-price">De R$59,90 por apenas</div>
