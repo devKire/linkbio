@@ -100,7 +100,8 @@ function App() {
               </div>
             </div>
             <p>
-              Sempre sofri para fazer meu Siamês comer a ração porque ele
+              Sempre sofri para fazer meu ShihTzu
+              comer a ração porque ele
               ficava enjoado, depois que comprei os ebooks ele nunca mais deu
               trabalho com isso
             </p>
